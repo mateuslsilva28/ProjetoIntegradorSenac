@@ -1,0 +1,133 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#geral {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-top: 0;
+}
+
+/*COMEÇO CONTEÚDO*/
+
+#banner {
+    width: auto;
+}
+
+#banner img {
+    margin-top: -5px;
+    width: 100%;
+    
+}
+
+#conteudo {
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    font-style: 'Maiandra';
+    font-weight: normal;
+}
+
+#conteudo p {
+    margin-left: 105px;
+    
+}
+
+
+#conteudo #agenda h2 {
+    margin-left: 61px;
+    color: #04336e;
+    font-size: 24.74px;
+    font-style: 'Maiandra';
+}
+
+#conteudo #agenda h3 {
+    font-weight: normal;
+    margin-left: 105px;
+}
+
+#conteudo #agenda p{
+    margin-left: 105px;
+    margin-bottom: -10px;
+}
+
+
+/*FIM DO CONTEÚDO*/
+
+@media (min-width:490px) and (max-width:546px) {
+   #conteudo #agenda p {
+        margin-left: 75px
+    }
+
+    #conteudo #agenda h3 {
+        margin-left: 75px;
+    }
+
+    #conteudo #agenda h2 {
+        margin-left: 50px;
+    }
+
+    #conteudo p {
+        margin-left: 75px;
+        word-wrap: break-word;
+    }
+}
+
+@media (min-width:398px) and (max-width:489px) {
+   #conteudo #agenda p{
+    margin-left: 50px ;
+   }
+
+   #conteudo #agenda h3 {
+    margin-left: 50px;
+}
+
+    #conteudo #agenda h2 {
+    margin-left: 25px;
+}
+
+    #conteudo p {
+    margin-left: 50px;
+    word-wrap: break-word;
+}
+}
+
+@media (min-width:311px) and (max-width:397px) {
+    #conteudo #agenda p{
+        margin-left: 30px ;
+       }
+    
+       #conteudo #agenda h3 {
+        margin-left: 30px;
+    }
+    
+        #conteudo #agenda h2 {
+        margin-left: 5px;
+    }
+    
+        #conteudo p {
+        margin-left: 30px;
+        word-wrap: break-word;
+    }
+}
+
+@media  (max-width:310px) {
+    #conteudo #agenda p{
+        margin-left: 15px ;
+       }
+    
+       #conteudo #agenda h3 {
+        margin-left: 15px;
+    }
+    
+        #conteudo #agenda h2 {
+        margin-left: 5px;
+    }
+    
+        #conteudo p {
+        margin-left: 15px;
+        word-wrap: break-word;
+    }
+}

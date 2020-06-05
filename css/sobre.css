@@ -1,0 +1,281 @@
+body {
+    margin:0;
+    padding: 0;
+}
+
+#conteudo {    
+    width: auto;
+    height: auto;
+}
+
+#conteudo #texto{
+    width:auto;
+    display:flex;
+    flex-direction: column;    
+}
+#conteudo #texto{
+    text-align: justify;
+    margin-right: 40px;
+}
+
+#texto  h2{
+    color: #04336e;
+    font-size: 24px;
+    margin-left:60px;
+    font-style: 'Maiandra';
+    
+}
+
+#texto p {
+    font-size:16px;
+    margin-left:60px;
+    font-style: 'Maiandra';
+    margin-right: 60px;
+}
+
+.title-items {
+    font-family: 'Maiandra', Arial, Helvetica, sans-serif;
+    color: #04336e;
+}
+
+.text-items {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media(min-width:1027px){
+    #compromissos {
+        position: relative;
+        top: 10px;
+    }
+}
+
+@media(min-width:1000px) and (max-width:1026px){
+    #compromissos {
+        position: relative;
+        top: -350px;
+    }
+}
+
+@media(min-width:961px) and (max-width:999px){
+    #compromissos {
+        position: relative;
+        top: -65px;
+    }
+}
+
+@media (min-width:428px) and (max-width:960px){
+    #conteudo #texto{
+        width:100%;
+        display:flex;
+        flex-direction: column; 
+    }
+}
+
+@media (max-width:427px){
+    #conteudo #texto{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+    }
+
+    #texto  h2{
+        color: #04336e;
+        font-size: 24px;
+        margin-left:20px;
+        font-style: 'Maiandra';
+    }
+    
+    #texto p {
+        font-size:16px;
+        margin-left:20px;
+        font-style: 'Maiandra';
+        margin-right: 60px;
+    }
+}
+
+/*Quadro Missao Visao Valores*/
+
+
+
+@media(max-width:701px){
+    
+    #valores, #missao, #visao {
+        text-align: center;
+        width:90%;
+        margin-left: 7%;
+    }
+
+    .img-visao {
+        width:20%
+    }
+
+    .img-compromissos {
+        border-radius: 100%;
+        padding: 10px;
+        border: 3px solid #e8d553;
+        text-align: center;
+        width:30%;
+        transition: all linear .4s;
+        background-color: transparent;
+    }
+
+    .img-compromissos:hover {
+        width:35%;
+        height:0%;
+        background-color: #e8d553;
+        transition: all linear .4s
+    }
+    
+}
+
+
+@media (min-width:700px){
+    #compromissos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 63%;
+        height: auto;
+        margin-left: 60px;
+    }
+
+    #missao, #visao, #valores {
+        display: flex;   
+    }
+
+    .text-items:first-of-type {
+        margin-top: -10px;
+    }
+
+    .center {
+        margin-top: 15px;
+    }
+
+    .title-item-compromissos {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        width: 60%;
+    }
+
+    .item-compromissos{
+        background-color: transparent;
+        width:140px;
+        height: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+        margin-bottom: 7px;
+        border: 3px solid #e8d553;
+        transition: all linear .4s
+    }
+
+    .item-compromissos:hover {
+        width:150px;
+        height:150px;
+        border: none;
+        background-color: #e8d553;
+        transition: all linear .4s
+    }
+
+    .img-compromissos {
+        width:70%
+    }
+
+}
+
+
+@media (min-width:1000px){
+    .imgs {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .imgs img {
+        width:20%;
+        height:100%;
+        margin: 5px 5px 10px 5px;
+        -moz-transition: all linear 1s;
+        transition: all linear 1s;
+        border-radius: 20%;
+    }
+
+    .imgs img:hover {
+        width:25%;
+        -moz-transition: all linear .4s;
+        transition: all linear .4s;
+    }
+}
+
+@media (min-width:700px) and (max-width:999px){
+    .imgs {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .imgs img {
+        width:40%;
+        height:100%;
+        margin: 5px 5px 10px 5px;
+        -moz-transition: all linear 1s;
+        transition: all linear 1s;
+        border-radius: 20%;
+    }
+
+    .imgs img:hover {
+        width:45%;
+        -moz-transition: all linear .4s;
+        transition: all linear .4s;
+    }
+}
+
+@media (min-width:501px) and (max-width:699px){
+    .imgs {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .imgs img {
+        align-self: center;
+        width:50%;
+        height:50%;
+        margin: 5px 5px 10px 5px;
+        -moz-transition: all linear 1s;
+        transition:  all linear 1s;
+        
+    }
+
+    .imgs img:hover{
+        width: 65%;
+        height: 65%;
+        -moz-transition: all linear .5s;
+        transition:  all linear .5s;
+    }
+}
+
+@media (max-width:500px){
+    .imgs {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .imgs img {
+        align-self: center;
+        width:70%;
+        height:100%;
+        margin: 5px 5px 10px 5px;
+        -moz-transition: all linear 1s;
+        transition:  all linear 1s;
+    }
+    .imgs img:hover{
+        width: 75%;
+        -moz-transition: all linear .4s;
+        transition:  all linear .4s;
+    }
+}

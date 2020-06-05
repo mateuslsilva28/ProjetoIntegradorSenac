@@ -1,0 +1,180 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#geral {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-top: 0;
+}
+
+form {
+    margin-left: 150px;
+    font-size: 19px;
+    width:484px; 
+}
+
+[type=submit]{
+    float:right;
+    margin-right: ;
+}
+
+
+label.required {
+    display: inline-block;
+    width: 165px;
+    word-wrap: none;
+}
+
+textarea {
+    display: inline-block;
+}
+
+#ganhe_descontos h2 {
+    margin-left: 61px;
+    color: #04336e;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#ganhe_descontos p {
+    margin-left: 105px;
+    margin-bottom: -10px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.required:after {
+    content: "*";
+    color: red;
+}
+
+select {
+    height: 20px;
+    width: 310px;
+}
+
+.btn {
+    margin-left: auto;
+    margin-bottom: 100px
+}
+
+#veja {
+    margin-bottom: 20px;
+}
+
+#veja_em_pe {
+    margin-bottom: 10px;
+}
+
+@media (min-width:959px) and (max-width:1015px){
+    #resumo {
+        width: 307px;
+    }
+
+    form {
+        margin-left: 150px;
+        font-size: 19px;
+        width:316px;
+    }
+}
+
+@media (min-width: 607px )and (max-width:705px){
+    form {
+        margin-left: 100px;
+        font-size: 19px;
+    }
+}
+
+@media (min-width:566px) and (max-width:606px){
+    form {
+        margin-left: 70px;
+        font-size: 19px;
+    }
+
+}
+
+@media (min-width:437px) and (max-width:565px){
+    form {
+        margin-left: 40px;
+        font-size: 19px;
+        width:378px;
+    }
+
+    select {
+        width:100%
+    }
+
+    #ganhe_descontos  h2{
+        color: #04336e;
+        font-size: 24px;
+        margin-left:40px;
+        font-style: 'Maiandra';
+    }
+    
+    #ganhe_descontos p {
+        font-size:16px;
+        margin-left:40px;
+        font-style: 'Maiandra';
+        
+    }
+    #resumo {
+        width: 368px;
+    }
+    [type=text] {
+        width:200px
+    }
+    
+}
+
+@media (min-width:340px) and (max-width:436px) {
+    form {
+        margin-left: 15px;
+        font-size: 19px;
+        width:318px;
+    }
+
+    #Contato  h2{
+        color: #04336e;
+        font-size: 24px;
+        margin-left:15px;
+        font-style: 'Maiandra';
+    }
+    
+    #ganhe_descontos p {
+        font-size:16px;
+        margin-left:15px;
+        font-style: 'Maiandra';
+    }
+    #resumo {
+        width: 308px;
+    }
+    select {
+        width:100%
+    }
+}
+
+
+@media (max-width:339px){
+    form {
+        margin-left: 15px;
+        font-size: 19px;
+        width:80%;
+    }
+
+    [type=text]{
+        width: 100%;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    #ganhe_descontos p{
+        margin-left: 0;
+    }
+}

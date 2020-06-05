@@ -1,0 +1,181 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#geral {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-top: 0;
+}
+
+form {
+    margin-left: 150px;
+    font-size: 19px;
+    width:484px; 
+}
+
+[type=submit]{
+    float:right;
+}
+
+#resumo {
+   margin-left: 0px;
+}
+
+label.required {
+    display: inline-block;
+    width: 165px;
+    word-wrap: none;
+}
+
+textarea {
+    display: inline-block;
+}
+
+#Trabalhe_Conosco  h2{
+    color: #04336e;
+    font-size: 24px;
+    margin-left:60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Trabalhe_Conosco p {
+    font-size:16px;
+    margin-left:105px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.required:after {
+    content: "*";
+    color: red;
+}
+
+select {
+    height: 20px;
+    width: 310px;
+}
+
+
+
+
+.btn {
+    margin-left: auto;
+    margin-bottom: 100px;
+    float:right;
+}
+
+#veja {
+    margin-bottom: 40px;
+}
+
+#veja_em_pe {
+    margin-bottom: 10px;
+}
+
+@media (min-width:959px) and (max-width:1015px){
+    #resumo {
+        width: 307px;
+    }
+
+    form {
+        margin-left: 150px;
+        font-size: 19px;
+        width:316px;
+    }
+}
+
+@media (min-width: 607px )and (max-width:705px){
+    form {
+        margin-left: 100px;
+        font-size: 19px;
+    }
+}
+
+@media (min-width:566px) and (max-width:606px){
+    form {
+        margin-left: 70px;
+        font-size: 19px;
+    }
+}
+
+@media (min-width:437px) and (max-width:565px){
+    form {
+        margin-left: 40px;
+        font-size: 19px;
+        width:378px;
+    }
+
+    #Trabalhe_Conosco  h2{
+        color: #04336e;
+        font-size: 24px;
+        margin-left:40px;
+        font-style: 'Maiandra';
+    }
+    
+    #Trabalhe_Conosco p {
+        font-size:16px;
+        margin-left:40px;
+        font-style: 'Maiandra';
+        
+    }
+
+    #resumo {
+        width: 368px;
+    }
+    [type=text] {
+        width:200px
+    }
+
+    textarea {
+        width:100%
+    }
+}
+
+@media (min-width:340px) and (max-width:436px) {
+    form {
+        margin-left: 15px;
+        font-size: 19px;
+        width:318px;
+    }
+
+    #Trabalhe_Conosco  h2{
+        color: #04336e;
+        font-size: 24px;
+        margin-left:15px;
+        font-style: 'Maiandra';
+    }
+    
+    #Trabalhe_Conosco p {
+        font-size:16px;
+        margin-left:15px;
+        font-style: 'Maiandra';
+    }
+    #resumo {
+        width: 308px;
+    }
+    textarea {
+        width:100%
+    }
+}
+
+@media (max-width:339px){
+    form {
+        margin-left: 15px;
+        font-size: 19px;
+        width:80%;
+    }
+
+    [type=text]{
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    #Trabalhe_Conosco p{
+        margin-left: 0;
+    }
+}
